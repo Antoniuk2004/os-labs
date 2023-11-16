@@ -1,0 +1,1 @@
+cat input.txt | java Task1.java --ignore-case > output.txt

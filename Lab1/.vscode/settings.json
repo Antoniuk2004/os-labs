@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "kernel.h": "c",
+        "cat.h": "c",
+        "keyboard.h": "c",
+        "touch.h": "c",
+        "serial_port.h": "c",
+        "structures.h": "c",
+        "functions.h": "c",
+        "clear.h": "c",
+        "rm.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

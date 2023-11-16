@@ -1,0 +1,8 @@
+{
+    "firefox" : "firefox",
+    "calculator" : "gnome-calculator",
+    "LibreOffice Writer" : "libreoffice --writer",
+    "LibreOffice Calc" : "libreoffice --calc",
+    "LibreOffice Impres" : "libreoffice --impress",
+    "Calendar" : "gnome-calendar"
+}
