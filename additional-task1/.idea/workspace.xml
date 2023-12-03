@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="additional-task1" targetName="kernel.bin" />
+      <config projectName="additional-task1" targetName="all" />
+      <config projectName="additional-task1" targetName="boot_iso" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c379432e-0e39-433f-baac-9831467e352e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.vscode/c_cpp_properties.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/asm/boot.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/asm/ex_handlers.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/asm/int_handlers.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/asm/low_level_functions.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/commands/cat/cat.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/commands/clear/clear.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/commands/ls/ls.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/commands/nano/nano.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/commands/pink/pink.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/commands/rm/rm.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/commands/sleep/sleep.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/commands/touch/touch.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/drivers/keyboard/keyboard.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/drivers/serial_port/serial_port.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/drivers/timer/timer.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/entry.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/file_editing/file_editing.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/file_functions/file_functions.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/functions/functions.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/kernel/exception_handler.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/kernel/gdt.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/kernel/idt.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/kernel/interrupt_handler.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/key_handler/key_handler.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/screen_saver/screen_saver.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/build/kernel/src/c/structures/structures.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/iso/boot/grub/grub.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/link.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/run.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/asm/boot.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/asm/checks.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/asm/ex_handlers.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/asm/int_handlers.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/asm/low_level_functions.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/cat/cat.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/cat/cat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/clear/clear.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/clear/clear.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/ls/ls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/ls/ls.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/nano/nano.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/nano/nano.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/pink/pink.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/pink/pink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/rm/rm.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/rm/rm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/sleep/sleep.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/sleep/sleep.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/touch/touch.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/commands/touch/touch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/drivers/keyboard/keyboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/drivers/keyboard/keyboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/drivers/serial_port/serial_port.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/drivers/serial_port/serial_port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/drivers/timer/timer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/drivers/timer/timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/entry.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/file_editing/file_editing.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/file_editing/file_editing.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/file_functions/file_functions.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/file_functions/file_functions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/functions/functions.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/functions/functions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/kernel/exception_handler.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/kernel/gdt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/kernel/idt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/kernel/interrupt_handler.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/kernel/kernel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/key_handler/key_handler.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/key_handler/key_handler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/screen_saver/screen_saver.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/screen_saver/screen_saver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/structures/structures.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1/src/c/structures/structures.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/Task1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/Task1/command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/Task1/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/Task1/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/src/main/java/org/example/tasks/task1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/src/main/java/org/example/tasks/task1/Warehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/src/main/java/org/example/tasks/task2/Once.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/src/main/java/org/example/tasks/task2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/src/main/java/org/example/tasks/task3/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/src/main/java/org/example/tasks/task3/MessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/src/main/java/org/example/tasks/task3/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/src/main/java/org/example/tasks/task3/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iso/boot/grub/grub.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/link.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asm/boot.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asm/checks.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asm/ex_handlers.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asm/int_handlers.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asm/low_level_functions.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/draw/draw.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/draw/draw.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/drivers/keyboard/keyboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/drivers/keyboard/keyboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/drivers/serial_port/serial_port.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/drivers/serial_port/serial_port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/drivers/timer/timer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/drivers/timer/timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/entry.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/kernel/exception_handler.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/kernel/gdt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/kernel/idt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/kernel/interrupt_handler.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/kernel/kernel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c/kernel/mutliboot.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/.idea/artifacts/Launcher_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/src/main/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/src/main/java/org/example/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/src/main/java/org/example/GUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/Launcher/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/commands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/pid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/wakeup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../additional-task2/wakeup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/os-x86_32-template" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MakefileLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="additional-task1" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="additional-task1" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="2.2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2XX0yQszmrW17eMiisKQ409sfy5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alex/aseprite&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Makefile Application.boot_iso">
+    <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="additional-task1" TARGET_NAME="all" CONFIG_NAME="all" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boot_iso" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="additional-task1" TARGET_NAME="boot_iso" CONFIG_NAME="boot_iso" version="1" RUN_PATH="$PROJECT_DIR$/Makefile">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kernel.bin" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="additional-task1" TARGET_NAME="kernel.bin" CONFIG_NAME="kernel.bin" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Makefile Application.all" />
+      <item itemvalue="Makefile Application.boot_iso" />
+      <item itemvalue="Makefile Application.kernel.bin" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c379432e-0e39-433f-baac-9831467e352e" name="Changes" comment="" />
+      <created>1698760371078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698760371078</updated>
+      <workItem from="1698760372096" duration="437000" />
+      <workItem from="1699487909802" duration="2403000" />
+      <workItem from="1699490319526" duration="1225000" />
+      <workItem from="1699493666700" duration="1382000" />
+      <workItem from="1699538641703" duration="5155000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

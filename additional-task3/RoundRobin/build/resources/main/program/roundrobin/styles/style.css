@@ -1,0 +1,8 @@
+#add-process-button{
+    -fx-background-color: none;
+    -fx-border-radius: 1000;
+}
+
+#add-process-button:hover .image-view{
+      -fx-opacity: 0.5;
+}

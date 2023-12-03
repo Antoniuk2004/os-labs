@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dfeae441-e86e-4689-8021-0011409be947" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task2/myObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task1/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task2/Once.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task2/Once.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task2/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task2/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task3/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task3/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task3/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../additional-task2/wakeup" beforeDir="false" afterPath="$PROJECT_DIR$/../../additional-task2/wakeup" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2YoxF6Ah8d0lglOxBPiDljysErg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alex/os-labs/additional-task4/FileSyncService&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Program" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="program.Main" />
+      <module name="FileSyncService.main" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/some_dir" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfeae441-e86e-4689-8021-0011409be947" name="Changes" comment="" />
+      <created>1701205630949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701205630949</updated>
+      <workItem from="1701205631949" duration="6681000" />
+      <workItem from="1701281623408" duration="5446000" />
+      <workItem from="1701349155771" duration="12167000" />
+      <workItem from="1701386765186" duration="5233000" />
+      <workItem from="1701451365226" duration="1092000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
