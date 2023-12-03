@@ -32,7 +32,9 @@ public class Queue implements MessageQueue {
                 throw new RuntimeException(e);
             }
         }
+
+        Message msg = elements.poll();
         notifyAll();
-        return elements.poll();
+        return msg;
     }
 }
