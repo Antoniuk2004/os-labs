@@ -1,5 +1,6 @@
 package program;
 
+import program.TCP.DataSender;
 import program.managers.FileManager;
 import program.params.FileManagerParams;
 import program.params.VisitorParams;
@@ -16,28 +17,32 @@ import java.util.Map;
 public class MyVisitor implements FileVisitor<Path> {
     private final FileManager fileManager;
     private final Map<Path, byte[]> fileSystemObjects;
-    private final boolean first;
-    private final String directory;
+    private boolean first;
+    private final Path directory;
+    private DataSender dataSender;
     private final FileManagerParams fileManagerParams;
 
     public MyVisitor(VisitorParams params) {
         this.fileSystemObjects = params.getFileSystemObjects();
-        this.first = params.getFirst();
+        this.first = true;
         this.directory = params.getDirectory();
         this.fileManager = new FileManager();
         fileManagerParams = new FileManagerParams();
         fileManagerParams.setFileSystemObjects(fileSystemObjects);
-//        fileManagerParams.setFileAbsolutePath();
+        this.dataSender = params.getDataSender();
     }
 
     @Override
     public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {
-        Path dirPath = dir.toAbsolutePath();
         if (first) {
-            fileSystemObjects.put(dirPath, null);
+            fileSystemObjects.put(dir, null);
         } else {
-//            FileManagerParams params = new FileManagerParams(dirPath, fileSystemObjects);
-//            fileManager.directoryCreating(params);
+            FileManagerParams params = new FileManagerParams();
+            params.setDirectory(dir);
+            params.setFileSystemObjects(fileSystemObjects);
+            params.setDataSender(dataSender);
+
+            fileManager.directoryCreating(params);
         }
         return FileVisitResult.CONTINUE;
     }
@@ -52,7 +57,9 @@ public class MyVisitor implements FileVisitor<Path> {
         }
 
         FileManagerParams params = new FileManagerParams();
-        params.setDirectory(directory);
+        params.setDirectory(file);
+        params.setFileSystemObjects(fileSystemObjects);
+        params.setDataSender(dataSender);
 
         if (!fileSystemObjects.containsKey(filePath)) {
             if (file.toString().endsWith("swp")) return FileVisitResult.CONTINUE;
@@ -72,5 +79,9 @@ public class MyVisitor implements FileVisitor<Path> {
     @Override
     public FileVisitResult postVisitDirectory(Path dir, IOException exc) {
         return FileVisitResult.CONTINUE;
+    }
+
+    public void setFirst(boolean first) {
+        this.first = first;
     }
 }

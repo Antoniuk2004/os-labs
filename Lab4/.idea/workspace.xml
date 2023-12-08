@@ -25,6 +25,18 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -56,7 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/alex/os-labs/additional-task3",
+    "last_opened_file_path": "/home/alex/os-labs/additional-task4/FileSyncService",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +88,8 @@
       <workItem from="1700839562858" duration="17194000" />
       <workItem from="1700865054543" duration="7986000" />
       <workItem from="1700925557697" duration="5592000" />
+      <workItem from="1701780130741" duration="2992000" />
+      <workItem from="1701794761516" duration="88000" />
     </task>
     <servers />
   </component>

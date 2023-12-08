@@ -40,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,21 +60,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alex/os-labs/additional-task4/FileSyncService&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/alex/os-labs/additional-task4/FileSyncService",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="program.tcp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="program" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Program">
     <configuration name="Program" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="program.Main" />
@@ -109,6 +118,12 @@
       <workItem from="1701349157595" duration="13343000" />
       <workItem from="1701386747357" duration="3875000" />
       <workItem from="1701451367452" duration="824000" />
+      <workItem from="1701709123350" duration="3785000" />
+      <workItem from="1701724640247" duration="14105000" />
+      <workItem from="1701763583556" duration="189000" />
+      <workItem from="1701766695603" duration="258000" />
+      <workItem from="1701779969343" duration="19000" />
+      <workItem from="1701976177208" duration="16697000" />
     </task>
     <servers />
   </component>

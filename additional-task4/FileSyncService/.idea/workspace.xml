@@ -5,15 +5,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfeae441-e86e-4689-8021-0011409be947" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task2/myObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task1/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task2/Once.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task2/Once.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task2/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task2/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task3/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task3/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/org/example/tasks/task3/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../additional-task2/wakeup" beforeDir="false" afterPath="$PROJECT_DIR$/../../additional-task2/wakeup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab4/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab4/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab4/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab4/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab4/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab4/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab4/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab4/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab4/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab4/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab4/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab4/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab4/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab4/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/Checker.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/program/Checker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/CheckerTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/DataReceiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/DataSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/program/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/MyVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/program/MyVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/TCPClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/commands/AddCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/commands/CommandExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/commands/ListCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/commands/RemoveCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/managers/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/program/managers/FileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/params/CheckerTaskParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/params/FileManagerParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/program/params/FileManagerParams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/params/Paths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/params/ProcessorParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/params/VisitorParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/program/params/VisitorParams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/processors/DirectoryProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/program/processors/RequestProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/FileSyncService-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/FileSyncService-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/PathMaker.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/CheckerTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/DataReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/DataSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/MyVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/MyVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/TCPClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/commands/AddCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/commands/CommandExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/commands/ListCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/commands/RemoveCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/managers/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/managers/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/params/CheckerTaskParams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/params/FileManagerParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/params/FileManagerParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/params/Paths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/params/ProcessorParams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/params/VisitorParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/params/VisitorParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/processors/DirectoryProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/processors/RequestProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/build/classes/java/main/program/DataReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/build/classes/java/main/program/DataReceiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/build/classes/java/main/program/DataSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/build/classes/java/main/program/DataSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/build/classes/java/main/program/TCPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/build/classes/java/main/program/TCPServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/build/tmp/compileJava/compileTransaction/stash-dir/TCPServer.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/build/tmp/compileJava/compileTransaction/stash-dir/TCPServer.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/src/main/java/program/DataReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/src/main/java/program/DataReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/src/main/java/program/DataSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/src/main/java/program/DataSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SyncServer/src/main/java/program/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SyncServer/src/main/java/program/TCPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../some_dir/f1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../some_dir/f2.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +117,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -60,25 +135,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alex/os-labs/additional-task4/FileSyncService&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/alex/os-labs/additional-task4/FileSyncService",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="program.handler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/program/handler" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Program" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
@@ -104,6 +182,18 @@
       <workItem from="1701349155771" duration="12167000" />
       <workItem from="1701386765186" duration="5233000" />
       <workItem from="1701451365226" duration="1092000" />
+      <workItem from="1701709178876" duration="5762000" />
+      <workItem from="1701724639260" duration="11873000" />
+      <workItem from="1701763586051" duration="190000" />
+      <workItem from="1701766653799" duration="41000" />
+      <workItem from="1701794850800" duration="1769000" />
+      <workItem from="1701888267700" duration="433000" />
+      <workItem from="1701888729611" duration="47000" />
+      <workItem from="1701888785494" duration="97000" />
+      <workItem from="1701890699733" duration="246000" />
+      <workItem from="1701959696549" duration="357000" />
+      <workItem from="1701963813951" duration="6138000" />
+      <workItem from="1701981040583" duration="17782000" />
     </task>
     <servers />
   </component>

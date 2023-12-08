@@ -1,12 +1,14 @@
 package program.params;
 
+import program.TCP.DataSender;
+
 import java.nio.file.Path;
 import java.util.Map;
 
 public class VisitorParams {
     private Map<Path, byte[]> fileSystemObjects;
-    private boolean first;
-    private String directory;
+    private Path directory;
+    private DataSender dataSender;
 
     public Map<Path, byte[]> getFileSystemObjects() {
         return fileSystemObjects;
@@ -16,19 +18,19 @@ public class VisitorParams {
         this.fileSystemObjects = fileSystemObjects;
     }
 
-    public boolean getFirst() {
-        return first;
-    }
-
-    public void setFirst(boolean first) {
-        this.first = first;
-    }
-
-    public String getDirectory() {
+    public Path getDirectory() {
         return directory;
     }
 
-    public void setDirectory(String directory) {
+    public void setDirectory(Path directory) {
         this.directory = directory;
+    }
+
+    public void setDataSender(DataSender dataSender) {
+        this.dataSender = dataSender;
+    }
+
+    public DataSender getDataSender() {
+        return dataSender;
     }
 }

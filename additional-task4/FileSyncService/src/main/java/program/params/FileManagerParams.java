@@ -1,26 +1,25 @@
 package program.params;
 
+import program.TCP.DataSender;
+
 import java.nio.file.Path;
 import java.util.List;
 import java.util.Map;
 
 public class FileManagerParams {
-    private Path fileAbsolutePath;
     private Map<Path, byte[]> fileSystemObjects;
-    private String directory;
+    private Path directory;
+    private DataSender dataSender;
+
     public Map<Path, byte[]> getFileSystemObjects() {
         return fileSystemObjects;
     }
 
-    public Path getSystemObjectPath() {
-        return fileAbsolutePath;
-    }
-
-    public String getDirectory() {
+    public Path getDirectory() {
         return directory;
     }
 
-    public void setDirectory(String directory) {
+    public void setDirectory(Path directory) {
         this.directory = directory;
     }
 
@@ -28,8 +27,11 @@ public class FileManagerParams {
         this.fileSystemObjects = fileSystemObjects;
     }
 
-    public void setFileAbsolutePath(Path fileAbsolutePath) {
-        this.fileAbsolutePath = fileAbsolutePath;
+    public void setDataSender(DataSender dataSender) {
+        this.dataSender = dataSender;
     }
 
+    public DataSender getDataSender() {
+        return dataSender;
+    }
 }
