@@ -1,9 +1,11 @@
 package program.tcp;
 
 import org.json.JSONObject;
-import program.Client;
+import program.client.Client;
 import program.Type;
 import program.handlers.Handler;
+import program.managers.FileManager;
+import program.params.DataReceiverParams;
 import program.params.HandlerParams;
 
 import java.io.BufferedReader;
@@ -11,6 +13,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.Socket;
+import java.nio.file.Path;
 import java.util.List;
 import java.util.Map;
 
@@ -19,10 +22,14 @@ public class DataReceiver implements Runnable {
     private final Map<Type, Handler> handlerMap;
     private final HandlerParams handlerParams;
 
-    public DataReceiver(Socket socket, Map<Type, Handler> handlerMap, List<Client> clientList) {
-        this.socket = socket;
-        this.handlerMap = handlerMap;
+    public DataReceiver(DataReceiverParams dataReceiverParams) {
+        this.socket = dataReceiverParams.getSocket();
+        this.handlerMap = dataReceiverParams.getHandlerMap();
+        List<Client> clientList = dataReceiverParams.getClientList();
+        Path rootDirectoryPath = dataReceiverParams.getRootDirectoryPath();
+
         this.handlerParams = new HandlerParams();
+        handlerParams.setFileManager(new FileManager(rootDirectoryPath));
         handlerParams.setClientList(clientList);
     }
 

@@ -1,6 +1,7 @@
 package program.params;
 
 import java.nio.file.Path;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
@@ -14,6 +15,8 @@ public class HandlerParams {
     private boolean isDirectory;
     private boolean hasContent;
     private Map<Path, byte[]> fileSystemObjects;
+    private List<String> directoriesList;
+    private Map<String, String> filesMap;
 
     public Path getRootPath() {
         return rootPath;
@@ -69,5 +72,21 @@ public class HandlerParams {
 
     public boolean getIsDirectory() {
         return isDirectory;
+    }
+
+    public void setDirectoriesList(List<String> directoriesList) {
+        this.directoriesList = directoriesList;
+    }
+
+    public void setFilesMap(Map<String, String> filesMap) {
+        this.filesMap = filesMap;
+    }
+
+    public List<String> getDirectoriesList() {
+        return directoriesList;
+    }
+
+    public Map<String, String> getFilesMap() {
+        return filesMap;
     }
 }

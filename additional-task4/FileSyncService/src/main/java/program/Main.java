@@ -4,10 +4,7 @@ import program.TCP.DataReceiver;
 import program.TCP.DataSender;
 import program.TCP.TCPClient;
 import program.checkers.FileSystemChecker;
-import program.handlers.FileModificationHandler;
-import program.handlers.SystemObjectDeletionHandler;
-import program.handlers.SystemObjectCreationHandler;
-import program.handlers.Handler;
+import program.handlers.*;
 import program.params.DataReceiverParams;
 
 import java.io.IOException;
@@ -46,7 +43,8 @@ public class Main {
         return Map.of(
                 Type.SYSTEM_OBJECT_CREATION, new SystemObjectCreationHandler(),
                 Type.SYSTEM_OBJECT_DELETION, new SystemObjectDeletionHandler(),
-                Type.FILE_MODIFICATION, new FileModificationHandler()
+                Type.FILE_MODIFICATION, new FileModificationHandler(),
+                Type.SYNCHRONIZATION, new SynchronizationHandler()
         );
     }
 
@@ -68,7 +66,14 @@ public class Main {
             System.out.println("Too many arguments.");
             System.exit(0);
         }
-        Path path = Path.of(args[0]);
+        Path path;
+        if (args[0].startsWith("/home")) {
+            path = Path.of(args[0]);
+        }
+        else{
+            String userDir = System.getProperty("user.dir");
+            path = Path.of(userDir + "/" + args[0]);
+        }
 
         if (!Files.exists(path)) {
             System.out.println("Such directory does not exist.");

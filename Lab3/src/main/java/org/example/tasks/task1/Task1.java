@@ -8,38 +8,38 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class Task1 {
     public void doTask() throws InterruptedException {
-        AtomicInteger step = new AtomicInteger();
-        Thread t = new Thread(() -> {
-            while (true) {
-                System.out.println(step.get());
-                step.getAndIncrement();
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
-            }
-        });
-        t.setDaemon(true);
-        t.start();
-        Thread.sleep(2000);
+//        AtomicInteger step = new AtomicInteger();
+//        Thread t = new Thread(() -> {
+//            while (true) {
+//                System.out.println(step.get());
+//                step.getAndIncrement();
+//                try {
+//                    Thread.sleep(1000);
+//                } catch (InterruptedException e) {
+//                    throw new RuntimeException(e);
+//                }
+//            }
+//        });
+//        t.setDaemon(true);
+//        t.start();
+//        Thread.sleep(2000);
 //
 //
-//        Warehouse warehouse = new Warehouse();
-//        List<String> titles = List.of(
-//                "Harry Potter and the Philosopher's Stone",
-//                "Harry Potter and the Chamber of Secrets",
-//                "Harry Potter and the Prisoner of Azkaban",
-//                "Harry Potter and the Goblet of Fire",
-//                "Harry Potter and the Half-Blood Prince",
-//                "Harry Potter and the Deathly Hallows"
-//        );
-//
-//
-//        long timeBeforeFirstFetch = System.currentTimeMillis();
-//
-//        Map<String, Warehouse.ItemStatus> mapOfWarehouse = method(titles);
-//        System.out.println(mapOfWarehouse);
+        Warehouse warehouse = new Warehouse();
+        List<String> titles = List.of(
+                "Harry Potter and the Philosopher's Stone",
+                "Harry Potter and the Chamber of Secrets",
+                "Harry Potter and the Prisoner of Azkaban",
+                "Harry Potter and the Goblet of Fire",
+                "Harry Potter and the Half-Blood Prince",
+                "Harry Potter and the Deathly Hallows"
+        );
+
+
+        long timeBeforeFirstFetch = System.currentTimeMillis();
+
+        Map<String, Warehouse.ItemStatus> mapOfWarehouse = method(titles);
+        System.out.println(mapOfWarehouse);
 
 
 //        CountDownLatch countDownLatch = new CountDownLatch(titles.size()    );

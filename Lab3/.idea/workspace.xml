@@ -68,7 +68,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/home/alex/os-labs/Lab4",
+    "last_opened_file_path": "/home/alex/os-labs/Lab3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -113,6 +113,7 @@
       <workItem from="1701180896414" duration="554000" />
       <workItem from="1701182480092" duration="50000" />
       <workItem from="1701779989285" duration="2880000" />
+      <workItem from="1702418084706" duration="122000" />
     </task>
     <servers />
   </component>

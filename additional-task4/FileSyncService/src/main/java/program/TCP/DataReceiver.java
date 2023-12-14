@@ -4,6 +4,7 @@ import org.json.JSONObject;
 import program.SharedObject;
 import program.Type;
 import program.handlers.Handler;
+import program.managers.JsonManager;
 import program.params.DataReceiverParams;
 import program.params.HandlerParams;
 
@@ -13,6 +14,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.Socket;
 import java.nio.file.Path;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
@@ -41,8 +43,7 @@ public class DataReceiver implements Runnable {
 
             String inputLine;
             while ((inputLine = reader.readLine()) != null) {
-                System.out.println("Received data: " + inputLine);
-                System.out.println("");
+                System.out.println("Received data: " + inputLine + "\n");
 
                 sharedObject.freezeChecker(true);
 
@@ -50,7 +51,12 @@ public class DataReceiver implements Runnable {
 
                 Type type = Type.valueOf(jsonObject.getString("type"));
 
-                HandlerParams handlerParams = initializeHandlerParams(jsonObject);
+                HandlerParams handlerParams;
+                if (type == Type.SYNCHRONIZATION) {
+                    handlerParams = initializeSyncHandlerParams(jsonObject);
+                } else {
+                    handlerParams = initializeHandlerParams(jsonObject);
+                }
 
                 Handler handler = handlerMap.get(type);
                 handler.exec(handlerParams);
@@ -61,6 +67,22 @@ public class DataReceiver implements Runnable {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    private HandlerParams initializeSyncHandlerParams(JSONObject jsonObject) {
+        HandlerParams handlerParams = new HandlerParams();
+        handlerParams.setRootPath(rootPath);
+
+        JsonManager jsonManager = new JsonManager();
+        List<String> directories = jsonManager.jsonToList(jsonObject, "directories");
+
+        String filesStr = String.valueOf(jsonObject.get("files"));
+        Map<String, String> files = jsonManager.jsonToMap(filesStr);
+
+        handlerParams.setDirectoriesList(directories);
+        handlerParams.setFilesMap(files);
+
+        return handlerParams;
     }
 
     private BufferedReader initializeReader() throws IOException {
